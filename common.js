@@ -5,8 +5,8 @@
 	"use strict";
 
 	var rainbow,
-		col = 'rgb(' + (Math.floor(Math.random()*256)) +
-		',' + (Math.floor(Math.random()*256)) +
+		col = 'rgb(' + (Math.floor(Math.random()*256)) + 
+		',' + (Math.floor(Math.random()*256)) + 
 		',' + (Math.floor(Math.random()*256)) + ')';
 
 	console.log(col);
@@ -14,8 +14,8 @@
 	function rainbowStart (){
 		$('.rainbow')
 		.click(function(){
-			var col = 'rgb(' + (Math.floor(Math.random()*256)) +
-			',' + (Math.floor(Math.random()*256)) +
+			var col = 'rgb(' + (Math.floor(Math.random()*256)) + 
+			',' + (Math.floor(Math.random()*256)) + 
 			',' + (Math.floor(Math.random()*256)) + ')';
 			$('.rainbow').css('background-color', col)
 		})
